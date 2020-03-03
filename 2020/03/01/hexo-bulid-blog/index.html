@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>家乡的晚霞 | songrenqing</title>
-  <meta name="keywords" content=" 家乡 ">
-  <meta name="description" content="家乡的晚霞 | songrenqing">
+  <title>hexo快速搭建个人博客 | songrenqing</title>
+  <meta name="keywords" content=" hexo ">
+  <meta name="description" content="hexo快速搭建个人博客 | songrenqing">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="个人简介我大学学的不是计算机专业，从事的也不是纯技术相关工作，很多技术知识都是由于兴趣，网上找资料自学的。目前从事数据分析相关工作。 最近最近一年，大部分业余时间都花在投资上面了。今年开始，又在学习算法的基础知识。 联系方式 QQ: 2849559530 知乎">
 <meta property="og:type" content="website">
@@ -253,38 +253,40 @@
 </aside>
 <div class="post">
     <div class="pjax">
-        <article id="post-img-test" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-hexo-bulid-blog" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">家乡的晚霞</h1>
+        <h1 class="article-title">hexo快速搭建个人博客</h1>
     
     <div class="article-meta">
         
         
-        <span class="author"><a>wyx</a></span>
+        <span class="author"><a>srq</a></span>
         
         
         <span class="book">
             
-                <a  data-rel="杂文">杂文</a>
+                <a  data-rel="工具">工具</a>/
+            
+                <a  data-rel="hexo">hexo</a>
             
         </span>
         
         
         <span class="tag">
             
-            <a class="color3">家乡</a>
+            <a class="color5">hexo</a>
             
         </span>
         
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2020-02-23 11:09:14'>2020-02-23 10:45</time>
+        创建时间:<time class="date" title='更新时间: 2020-03-03 23:01:37'>2020-03-01 18:28</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:11</span>
+        <span>字数:596</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -314,7 +316,7 @@
     
     <div class="toc-ref">
     
-        
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#hexo快速搭建"><span class="toc-text">hexo快速搭建</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装"><span class="toc-text">安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#检查是否安装成功"><span class="toc-text">检查是否安装成功</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#创建一个文件夹blog，进入并初始化"><span class="toc-text">创建一个文件夹blog，进入并初始化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装npm"><span class="toc-text">安装npm</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#开启服务"><span class="toc-text">开启服务</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#网页输入http-localhost-4000"><span class="toc-text">网页输入http:&#x2F;&#x2F;localhost:4000</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#托管到Github"><span class="toc-text">托管到Github</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#创建新的仓库"><span class="toc-text">创建新的仓库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#修改-config-yml"><span class="toc-text">修改_config.yml</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#生成静态文件，更新部署"><span class="toc-text">生成静态文件，更新部署</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#输入github的账号和密码"><span class="toc-text">输入github的账号和密码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#现在通过-https-songrenqing-github-io-就可以访问网址"><span class="toc-text">现在通过 https:&#x2F;&#x2F;songrenqing.github.io 就可以访问网址</span></a></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -330,10 +332,27 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><strong>The scenery of my hometown</strong></p>
-<p><img src="HomeTown_scenery.jpg" alt=""></p>
-<p><img src="HomeTown_scenery_2.jpg" alt=""></p>
-<p><strong><em>These photos were taken by wyx</em></strong></p>
+        <p>几年前，我自己买过域名，xyz结尾的，一年十几块钱。租用了一个服务器，主机壳的，也是最便宜的那种，大概一百多块钱吧。然后用wordpress搭建了一个静态的网页。</p>
+<p>为了使页面看起来好看，还特意买了深入浅出系列的HTML、CSS，利用下班时间啃完了两本大头书。虽然都是很基础的知识，但是自己本身不是计算机专业，从事的也不是技术开发相关工作，所以学起来比较慢。对于我来说，这算是一个全新的领域。</p>
+<p>后来做完之后还特别得意，毕竟自己从零摸索着一步步实现，特有成就感。其实那就是一个很普通的页面，就像一个刚学会画鸡蛋的小学生画出来的东西。如果非要和专业画家比，那简直是天上和地下的差别。</p>
+<p>当然做这些纯属兴趣，瞎折腾呗。现在技术也越来越成熟，能好好利用现有的技术，对于我来说就够了。</p>
+<p>今天就记录一下我用hexo搭建博客的过程，整个过程很简单。</p>
+<h1 id="hexo快速搭建"><a href="#hexo快速搭建" class="headerlink" title="hexo快速搭建"></a>hexo快速搭建</h1><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><pre><code class="bash">➜  ~ npm install -g hexo-cli</code></pre>
+<p><em>备注：确保之前电脑上成功安装npm</em></p>
+<h2 id="检查是否安装成功"><a href="#检查是否安装成功" class="headerlink" title="检查是否安装成功"></a>检查是否安装成功</h2><pre><code class="bash">➜  ~ hexo -v</code></pre>
+<h2 id="创建一个文件夹blog，进入并初始化"><a href="#创建一个文件夹blog，进入并初始化" class="headerlink" title="创建一个文件夹blog，进入并初始化"></a>创建一个文件夹blog，进入并初始化</h2><pre><code class="bash">➜  ~ cd /Users/songrenqing/blog
+➜  blog hexo init</code></pre>
+<p><em>备注：文件夹自己随便命名</em></p>
+<h2 id="安装npm"><a href="#安装npm" class="headerlink" title="安装npm"></a>安装npm</h2><pre><code class="bash">➜  blog npm install</code></pre>
+<h2 id="开启服务"><a href="#开启服务" class="headerlink" title="开启服务"></a>开启服务</h2><pre><code class="bash">➜  blog hexo server</code></pre>
+<h2 id="网页输入http-localhost-4000"><a href="#网页输入http-localhost-4000" class="headerlink" title="网页输入http://localhost:4000"></a>网页输入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></h2><p><img src="1.png" alt=""></p>
+<h1 id="托管到Github"><a href="#托管到Github" class="headerlink" title="托管到Github"></a>托管到Github</h1><h2 id="创建新的仓库"><a href="#创建新的仓库" class="headerlink" title="创建新的仓库"></a>创建新的仓库</h2><p><em>登录自己的github账号,创建一个新的仓库,名称必须是 user.github.io</em><br><em>比如我的用户名是songrenqing，新建的仓库就命名为songrenqing.github.io</em><br><img src="2.png" alt=""></p>
+<h2 id="修改-config-yml"><a href="#修改-config-yml" class="headerlink" title="修改_config.yml"></a>修改_config.yml</h2><p><em>进入bolg文件夹中，找到_config.yml，修改deploy内容</em><br><img src="3.png" alt=""></p>
+<h2 id="生成静态文件，更新部署"><a href="#生成静态文件，更新部署" class="headerlink" title="生成静态文件，更新部署"></a>生成静态文件，更新部署</h2><pre><code class="bash">➜  blog hexo generate
+➜  blog hexo deploy</code></pre>
+<h2 id="输入github的账号和密码"><a href="#输入github的账号和密码" class="headerlink" title="输入github的账号和密码"></a>输入github的账号和密码</h2><p>Username for ‘<a href="https://github.com&#39;" target="_blank" rel="noopener">https://github.com&#39;</a>: 填github的注册邮箱<br>Password for ‘<a href="https://xxxxx@gmail.com&#39;:填github的密码" target="_blank" rel="noopener">https://xxxxx@gmail.com&#39;:填github的密码</a></p>
+<h2 id="现在通过-https-songrenqing-github-io-就可以访问网址"><a href="#现在通过-https-songrenqing-github-io-就可以访问网址" class="headerlink" title="现在通过 https://songrenqing.github.io 就可以访问网址"></a>现在通过 <a href="https://songrenqing.github.io">https://songrenqing.github.io</a> 就可以访问网址</h2><p><img src="4.png" alt=""></p>
+<p>博客的雏型基本上搭建完成，整个过程没有什么难度。如果不喜欢官方的主题，还可以自己更换主题。下一篇文章，讲一下如何更换主题，并加上评论的功能。</p>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达，可以在下面评论区评论。 </span>
@@ -343,12 +362,12 @@
 
 
 <div class="article_copyright">
-    <p><span class="copy-title">文章标题:</span>家乡的晚霞</p>
-    <p><span class="copy-title">文章字数:</span><span class="post-count">11</span></p>
+    <p><span class="copy-title">文章标题:</span>hexo快速搭建个人博客</p>
+    <p><span class="copy-title">文章字数:</span><span class="post-count">596</span></p>
     <p><span class="copy-title">本文作者:</span><a  title="srq">srq</a></p>
-    <p><span class="copy-title">发布时间:</span>2020-02-23, 10:45:52</p>
-    <p><span class="copy-title">最后更新:</span>2020-02-23, 11:09:14</p>
-    <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/02/23/img-test/" title="家乡的晚霞">https://songrenqing.github.io/2020/02/23/img-test/</a>
+    <p><span class="copy-title">发布时间:</span>2020-03-01, 18:28:21</p>
+    <p><span class="copy-title">最后更新:</span>2020-03-03, 23:01:37</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/03/01/hexo-bulid-blog/" title="hexo快速搭建个人博客">https://songrenqing.github.io/2020/03/01/hexo-bulid-blog/</a>
     <p>
         <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
     </p>
