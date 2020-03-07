@@ -6,17 +6,21 @@
   <meta name="keywords" content=" Sublime , Python ">
   <meta name="description" content="Sublime配置Python环境 | songrenqing">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="个人简介爱好广泛，学艺不精，是个普通的人 大学学的不是计算机专业，从事的也不是纯技术相关工作，很多技术知识都是由于兴趣，网上找资料自学 虽然说学习投资是为了赚钱，学习技术是为了糊口，但是不管投资还是技术，都是先产生了兴趣，才能够坚持学习。兴趣是最好的老师。 最近最近一年，大部分业余时间都花在投资上面了。今年开始，又在学习算法的基础知识。 联系方式 QQ: 2849559530 知乎">
-<meta property="og:type" content="website">
-<meta property="og:title" content="关于我">
-<meta property="og:url" content="https://songrenqing.github.io/about/index.html">
+<meta name="description" content="配置Pyhton运行环境新建sublime-build文件 Tools -&gt; Build System -&gt; New Build System  复制以下内容到文件，并保存，命名Python3.sublime-build&quot;cmd&quot;: [&quot;&#x2F;usr&#x2F;local&#x2F;bin&#x2F;python3&quot;, &quot;-u&quot;, &quot;$file&amp;qu">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Sublime配置Python环境">
+<meta property="og:url" content="https://songrenqing.github.io/2020/03/06/sublime-python/index.html">
 <meta property="og:site_name" content="songrenqing">
-<meta property="og:description" content="个人简介爱好广泛，学艺不精，是个普通的人 大学学的不是计算机专业，从事的也不是纯技术相关工作，很多技术知识都是由于兴趣，网上找资料自学 虽然说学习投资是为了赚钱，学习技术是为了糊口，但是不管投资还是技术，都是先产生了兴趣，才能够坚持学习。兴趣是最好的老师。 最近最近一年，大部分业余时间都花在投资上面了。今年开始，又在学习算法的基础知识。 联系方式 QQ: 2849559530 知乎">
+<meta property="og:description" content="配置Pyhton运行环境新建sublime-build文件 Tools -&gt; Build System -&gt; New Build System  复制以下内容到文件，并保存，命名Python3.sublime-build&quot;cmd&quot;: [&quot;&#x2F;usr&#x2F;local&#x2F;bin&#x2F;python3&quot;, &quot;-u&quot;, &quot;$file&amp;qu">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-02-22T07:36:49.000Z">
-<meta property="article:modified_time" content="2020-03-06T14:59:49.131Z">
+<meta property="og:image" content="https://songrenqing.github.io/2020/03/06/sublime-python/sublime_python">
+<meta property="article:published_time" content="2020-03-06T15:15:23.000Z">
+<meta property="article:modified_time" content="2020-03-07T06:26:50.053Z">
 <meta property="article:author" content="srq">
+<meta property="article:tag" content="Sublime">
+<meta property="article:tag" content="Python">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://songrenqing.github.io/2020/03/06/sublime-python/sublime_python">
 
 
 <link rel="icon" href="/img/avatar.jpg">
@@ -200,6 +204,14 @@
     <div class="tags-list">
     
     <li class="article-tag-list-item">
+        <a class="color3">Sublime</a>
+    </li>
+    
+    <li class="article-tag-list-item">
+        <a class="color2">Python</a>
+    </li>
+    
+    <li class="article-tag-list-item">
         <a class="color5">hexo</a>
     </li>
     
@@ -213,14 +225,6 @@
     
     <li class="article-tag-list-item">
         <a class="color3">家乡</a>
-    </li>
-    
-    <li class="article-tag-list-item">
-        <a class="color3">Sublime</a>
-    </li>
-    
-    <li class="article-tag-list-item">
-        <a class="color2">Python</a>
     </li>
     
     <div class="clearfix"></div>
@@ -293,12 +297,12 @@
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2020-03-07 14:17:33'>2020-03-06 23:15</time>
+        创建时间:<time class="date" title='更新时间: 2020-03-07 14:26:50'>2020-03-06 23:15</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:697</span>
+        <span>字数:695</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -353,7 +357,7 @@
 &quot;selector&quot;: &quot;source.python&quot; 
 </code></pre><p><em>文件命名没有特殊要求，我的版本是python3.7，所以就命名为Python3.sublime-build</em><br><em>/usr/local/bin/python3是我的电脑中python的路径，需要替换成你自己的。如果不知道自己python安装路径，直接在终端输入which python3</em></p>
 <h2 id="选择Python运行环境"><a href="#选择Python运行环境" class="headerlink" title="选择Python运行环境"></a>选择Python运行环境</h2><blockquote>
-<p>Tools -&gt; Build System -&gt; Python3<br><em>选择之后，运行环境就是Python3。运行快捷键是command+B</em><br><img src="sublime_python.jpeg" alt="Python环境运行"></p>
+<p>Tools -&gt; Build System -&gt; Python3<br><em>选择之后，运行环境就是Python3。运行快捷键是command+B</em><br><img src="sublime_python" alt="Python环境运行"></p>
 </blockquote>
 <h1 id="配置IPython"><a href="#配置IPython" class="headerlink" title="配置IPython"></a>配置IPython</h1><p>虽然Pyhton的环境安装好了，但是想快速测试或者验证代码逻辑，有一个交互式的解释器会方便很多，所以我也在Sublime上配置了IPython</p>
 <h2 id="安装Package-Control"><a href="#安装Package-Control" class="headerlink" title="安装Package Control"></a>安装Package Control</h2><p>首先安装包管理器，安装包管理器顾名思义就是管理各种安装包</p>
@@ -371,8 +375,9 @@
 </ul>
 </li>
 </ol>
-<pre><code>2. 手动安装
-如果命令行无法安装成功，可以手动安装
+<pre><code>
+2. 手动安装
+    如果命令行无法安装成功，可以手动安装
     * Preferences -&gt; Browse Packages
     * 进入目录后，打开目录的上一层，然后找到 Install Packages文件夹，点进去
     * 下载[Package Control.sublime-package](https://sublime.wbond.net/Package%20Control.sublime-package)下载后的文件复制到Installed Packages/目录下面
@@ -384,14 +389,14 @@
 3. 修改Main.sublime-menu文件的配置
     &gt; Preferences -&gt; Browse Packages -&gt; SublimeREPL -&gt; config -&gt;Python -&gt;Main.sublime-menu
 4. Main.sublime-menu文件中，Python-IPython后面cmd中的osx改为 /usr/local/bin/ipython。如果不知道自己ipython的路径，终端输入which ipython。其他地方的cmd后面改为 /usr/local/bin/python3
-![修改menu文件](menu.jpeg)
+![修改menu文件](menu)
 
 ## 设置快捷键
 &gt; Tools -&gt; SublimeREPL -&gt; Python -&gt; Python-IPython
 每次这样运行太麻烦，设置一个快捷键会方便很多
 
 我设置的是ctrl+shift+1，本来想设置成F5这样简单的，但是和mac的快捷键冲突了，没用，所以就设置了这样一个快捷键。</code></pre><p>{<br>    “keys”:[“ctrl+shift+1”],<br>    “caption”: “SublimeREPL: Python - IPython”,<br>    “command”: “run_existing_window_command”,<br>    “args”:<br>    {<br>        “id”: “repl_python_ipython”,<br>        “file”: “config/Python/Main.sublime-menu”<br>    }<br>},</p>
-<pre><code>![快速调出IPython](快捷键调出IPython.jpeg)
+<pre><code>![快速调出IPython](快捷键调出IPython)
 # 结尾
 我现在用得比较多的就是Sublime和vscode。在Sublime上配置其他语言的运行环境，和配置Python差不多。后来我也试过java的配置，很快就搞好了。
 </code></pre>
@@ -408,10 +413,10 @@
 
 <div class="article_copyright">
     <p><span class="copy-title">文章标题:</span>Sublime配置Python环境</p>
-    <p><span class="copy-title">文章字数:</span><span class="post-count">697</span></p>
+    <p><span class="copy-title">文章字数:</span><span class="post-count">695</span></p>
     <p><span class="copy-title">本文作者:</span><a  title="srq">srq</a></p>
     <p><span class="copy-title">发布时间:</span>2020-03-06, 23:15:23</p>
-    <p><span class="copy-title">最后更新:</span>2020-03-07, 14:17:33</p>
+    <p><span class="copy-title">最后更新:</span>2020-03-07, 14:26:50</p>
     <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/03/06/sublime-python/" title="Sublime配置Python环境">https://songrenqing.github.io/2020/03/06/sublime-python/</a>
     <p>
         <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
@@ -495,7 +500,7 @@
     /*作者、标签的自动补全*/
     $(function () {
         $('.search').AutoComplete({
-            'data': ['@srq','@wyx','#hexo','#github','#netlify','#家乡','#Sublime','#Python',],
+            'data': ['@srq','@wyx','#Sublime','#Python','#hexo','#github','#netlify','#家乡',],
             'itemHeight': 20,
             'width': 418
         }).AutoComplete('show');
